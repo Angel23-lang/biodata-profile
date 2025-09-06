@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Biodata</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8f9fa;
+      padding: 15px 30px;
+      border-bottom: 1px solid #ddd;
+    }
+    nav .brand {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    nav .menu a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    nav .menu a:hover {
+      color: #007bff;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+    }
+    .header .text {
+      max-width: 50%;
+    }
+    .header h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .header p {
+      margin-bottom: 20px;
+      color: #555;
+    }
+    .header img {
+      width: 600px;
+      height: 400px;
+      object-fit: cover;
+      border: 1px solid #ccc;
+    }
+
+    /* About Me Section */
+    .about {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+    }
+    .about h2 {
+      margin-bottom: 10px;
+    }
+    .about p {
+      color: #777;
+      margin-bottom: 30px;
+    }
+    .about table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: auto;
+      max-width: 900px;
+    }
+    .about td {
+      border: 1px solid #ccc;
+      padding: 15px;
+      text-align: center;
+      width: 33%;
+    }
+
+    /* Portfolio Section */
+    .portfolio {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .portfolio h2 {
+      margin-bottom: 20px;
+    }
+    .portfolio .items {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .portfolio .item {
+      width: 350px;
+      border: 1px solid #ccc;
+      background: #fff;
+      padding: 10px;
+    }
+    .portfolio .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 1px solid #ddd;
+    }
+    .portfolio .item h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+    .portfolio .item p {
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="brand">Brand</div>
+    <div class="menu">
+      <a href="#header">Header</a>
+      <a href="#about">Biodata</a>
+      <a href="#portfolio">Portfolio</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section id="header" class="header">
+    <div class="text">
+      <h1>Selamat Datang di Website Saya</h1>
+      <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+      <a href="#">Pelajari Lebih Lanjut</a>
+    </div>
+    <img src="https://via.placeholder.com/600x400" alt="Header Image">
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>A brief introduction about myself</p>
+    <table>
+      <tr>
+        <td>Full Name</td>
+        <td>Education</td>
+        <td>Pekerjaan</td>
+      </tr>
+      <tr>
+        <td>Hobi</td>
+        <td>Alamat</td>
+        <td>Contact</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <h2>Portofolio</h2>
+    <div class="items">
+      <div class="item">
+        <img src="https://via.placeholder.com/350x200" alt="Proyek 1">
+        <h3>Proyek 1</h3>
+        <p>Deskripsi proyek 1</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/350x200" alt="Proyek 2">
+        <h3>Proyek 2</h3>
+        <p>Deskripsi proyek 2</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/350x200" alt="Proyek 3">
+        <h3>Proyek 3</h3>
+        <p>Deskripsi proyek 3</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
